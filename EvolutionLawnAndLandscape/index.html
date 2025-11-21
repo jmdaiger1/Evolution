@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 	<title>Evolution Lawn and Landscape</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,300..800;1,75..100,300..800&amp;display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
@@ -30,39 +31,77 @@
 		<div class="d--body"><!--body-->
 			<div class="d--body-welcome"><!--welcome-->
 				<div class="d--welcome-box"><!--box-->
-					<p class="d--welcome-text">
-						Welcome to Evolution Lawn and Landscaping—where your outdoor vision becomes reality. We design, maintain, and enhance landscapes with care, creativity, and lasting quality.<br><br>
-						Let's evolve your outdoor space into something you love coming home to.
-					</p>
+					<h1 class="d--welcome-catch">
+						Design it.<br>Build it.<br>Elevate it.
+					</h1>
+					<p class="d--welcome-text">Evolution Lawn and Landscape brings the energy to your outdoor space.</p>
 					<a class="d--welcome-contact">Contact Us</a><!--contact-->
 				</div>
 			</div>
 		</div>
 	</div>
-	<div><!--services-->
-		<div><!--box-->
-			<h3>Lawn Maintenance</h3>
+	<div class="d--services">
+		<h2 class="d--services-heading">Our Services</h2>
+		<div class="d--services-div"><!--services-->
+			<div class="d--services-box" onclick="openPage()"><!--box-->
+				<div style="background-image: url(uploads/mowing.jpg)">
+					<h3>Lawn Maintenance</h3>
+				</div>
+			</div>
+			<div class="d--services-box" onclick="openPage()">
+				<div style="background-image: url(uploads/landscaping2.jpg)">
+					<h3>Landscaping</h3>
+				</div>
+			</div>
+			<div class="d--services-box" onclick="openPage()">
+				<div style="background-image: url(uploads/hardscaping.jpg)">
+					<h3>Hardscaping</h3>
+				</div>
+			</div>
+			<div class="d--services-box" onclick="openPage()">
+				<div style="background-image: url(uploads/snowplowing.jpg)">
+					<h3>Snow Removal</h3>
+				</div>
+			</div>
 		</div>
-		<div>
-			<h3>Landscaping</h3>
-		</div>
-		<div>
-			<h3>Hardscaping</h3>
-		</div>
-		<div>
-			<h3>Snow Removal</h3>
-		</div>
-		<div>
-			<h3>See More</h3>
-		</div>
+		<a class="d--services-seemore">More Services</a>
 	</div>
-	<div><!--contact-->
+	<div class="d--about"><!--about us-->
+		<div class="d--about-color">
+			<div class="d--about-logo">
+				<img src="uploads/LogoOrange2.png">
+			</div>
+			<div class="d--about-box">
+				<h2 class="d--about-heading">About Us</h2>
+				<p class="d--about-text">
+					At Evolution Lawn and Landscape, we believe every outdoor space has the potential to be extraordinary. What started as a passion for the outdoors has grown into a full-service landscaping company dedicated to thoughtful design, reliable maintenance, and craftsmanship that stands the test of time.<br>
+					We take pride in helping homeowners create spaces that feel inviting, functional, and uniquely theirs. When you choose Evolution, you’re choosing a team that genuinely cares about bringing your vision to life—and keeping your property looking its best, season after season.
+				</p>
+			</div>
+		</div>
 	</div>
 	<footer>
+		<div class="d--header">
+				<div class="d--header-logo">
+					<img class="d--header-img" src="uploads/Logo.png">
+				</div>
+				<div class="d--header-nav-div">
+					<nav>
+						<ul>
+							<li>Home</li>
+							<li>Services</li>
+							<li>Gallery</li>
+							<li>About Us</li>
+							<li>Contact Us</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
 		<div><!--logo-->
 		</div>
 		<div><!--sitemap-->
 		</div>
 	</footer>
+	<script type="application/javascript" src="script.js"></script>
 </body>
 </html>
