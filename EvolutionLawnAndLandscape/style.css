@@ -149,12 +149,23 @@ svg {
 	justify-content: center;
 }
 
+.d--services-maindiv {
+	display: flex;
+	flex-direction: row;
+}
+
 .d--services-div {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
 	margin-right: var(--scrollbar-width);
 	padding-bottom: 7vh;
+}
+
+.d--services-subdiv {
+	display: flex;
+	flex-direction: row;
+	width: 60vw;
 }
 
 .d--services-box {
@@ -277,4 +288,33 @@ svg {
 
 .f--img {
 	flex: 0 1 auto;
+}
+
+@media screen and (max-width:500px) {
+	.d--header-nav-div {
+		display: none;
+	}
+
+	.d--about-logo {
+		display: none;
+	}
+
+	.d--welcome-box {
+		width: 90vw;
+	}
+
+	.d--services > div {
+		flex-direction: column;
+	}
+	
+	.d--services-div {
+		margin: 0 auto;
+
+	.d--services-subdiv {
+		width: 90vw;
+	}
+
+	.f--copyright {
+		font-size: 12px;
+	}
 }
