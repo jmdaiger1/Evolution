@@ -55,6 +55,12 @@ footer {
 	height: 10vh;
 }
 
+svg {
+  display: block;
+  line-height: 0;
+}
+
+
 .d--header {
 	display: flex;
 	flex-direction: row;
@@ -185,17 +191,23 @@ footer {
 
 .d--services-seemore {
 	align-self: center;
-	font-size: 25px;
+	font-size: 20px;
 	color: white;
-	background-color: darkolivegreen;
-	border-radius: 5px;
-	padding: 1vh 2vw;
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 10px;
+	padding: 4vh 5vw;
 	cursor: pointer;
-	margin: 2vh 0 7vh 0;
+	margin: 2vh 8vw 7vh 8vw;
+	color: darkolivegreen;
+	font-weight: bold;
 }
 
-.d--services-seemore:hover {
-	background-color: black;
+.d--services-seemore > p > a, a:visited {
+	color: #94ba4e;
+}
+
+.d--services-seemore > p > a:hover {
+	color: #303c1a;
 }
 
 .d--about {
@@ -240,4 +252,30 @@ footer {
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 0;
+}
+
+.f--footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.f--logo {
+	height: 8vh;
+	margin: auto 0 auto 0;
+	padding: 2px 0;
+	border-radius: 8px;
+}
+
+.f--logo {
+	display: flex;
+	height: 8vh;
+	margin: auto 0 auto 0;
+	padding: 2px 0;
+	border-radius: 8px;
+}
+
+.f--img {
+	flex: 0 1 auto;
 }
