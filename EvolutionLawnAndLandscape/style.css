@@ -310,13 +310,14 @@ svg {
 	
 	.d--services-div {
 		margin: 0 auto;
+	}
 
 	.d--services-subdiv {
 		width: 90vw;
 	}
 
 	.d--welcome-contact {
-		width: 20vw;
+		width: auto;
 	}
 
 	.f--copyright {
