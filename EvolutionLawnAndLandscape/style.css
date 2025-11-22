@@ -269,6 +269,7 @@ svg {
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
+	background-color: black;
 }
 
 .f--logo {
@@ -312,6 +313,10 @@ svg {
 
 	.d--services-subdiv {
 		width: 90vw;
+	}
+
+	.d--welcome-contact {
+		width: 20vw;
 	}
 
 	.f--copyright {
